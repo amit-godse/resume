@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { VcardComponent } from './vcard/vcard.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    VcardComponent
+    VcardComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
